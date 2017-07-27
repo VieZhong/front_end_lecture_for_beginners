@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>前端新生讲座</title>
+        <link rel="stylesheet" type="text/css" href="css/impress-demo.css">
+        <link rel="stylesheet" type="text/css" href="css/my-style.css">
+    </head>
+    <body>
+        <div id="impress">
+            <div id="step1" class="step slide">
+                <q>2017届新生讲座 —— 前端篇</q>
+                <div>
+                    <p>主讲人：钟远维</p>
+                    <p>时间：2017年8月25日</p>
+                </div>
+            </div>
+            <div id="step2" class="step slide">
+                <q>从 Web 开发讲起</q>
+                <ul>
+                    <li>前端开发</li>
+                    <li>后台开发</li>
+                    <li>数据库/服务器</li>
+                </ul>
+                <p>* 仅限华中科技大学中国高校社会科学数据中心</p>
+            </div>
+            <div id="step3" class="step slide">
+                <q>前端三把武器</q>
+                <div>
+                    <div class="img-container"><img src="image/house.jpg" alt="房子"></div>
+                    <div class="img-container"><img src="image/html-css-javascript.png" alt="三者作用和关系"></div>
+                </div>
+            </div>
+            <div id="step4" class="step slide">
+                <q>从入门到放弃</q>
+                <div>
+                    <div class="list">
+                        <p>要从思想上做好准备</p>
+                        <ul>
+                            <li>1、肯学</li>
+                            <li>2、肯啃</li>
+                            <li>3、肯吃亏</li>
+                        </ul>
+                    </div>
+                    <div class="img-container"><img src="image/ready.jpg" alt="做好准备"></div>
+                </div>
+            </div>
+            <div id="step5" class="step slide">
+                <q>论肯吃亏</q>
+                <div>
+                    <p>贝贝有话要说：</p>
+                    <div class="dialog">
+                        <img src="image/beibei.jpg" alt="wangbb" />
+                        <p>重构代码过程是世界上最痛苦的事情，但是重构代码的结果让人很幸福~</p>
+                    </div>
+                    <div class="dialog">
+                        <img src="image/yuanwei.jpg" alt="zhongyw" />
+                        <p>不如从 SMDB 开始？</p>
+                    </div>
+                </div>
+            </div>
+            <div id="step6" class="step slide">
+                <q>落到行动上</q>
+                <div>
+                    <ul class="list">
+                        <li>1、看书</li>
+                        <li>2、看博客</li>
+                        <li>3、看开源项目</li>
+                        <li>4、看框架源码</li>
+                        <li>5、多写项目</li>
+                    </ul>
+                    <div class="img-container">
+                        <img src="image/action.png" alt="行动起来">
+                    </div>
+                </div>
+            </div>
+            <div id="step7" class="step slide">
+                <q>基础学习</q>
+                <div>
+                    <img src="image/gplot.jpg" alt="知识拓扑图">
+                </div>
+            </div>
+            <div id="step8" class="step slide">
+                <q>基础学习</q>
+                <div>
+                    <img src="image/basic.jpg" alt="三剑客">
+                </div>
+            </div>
+            <div id="step9" class="step slide">
+                <q>HTML</q>
+                <div>
+                    <pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+        &lt;head&gt;
+            &lt;title&gt;xxx&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;xxx&lt;/h1&gt;
+            &lt;p&gt;xxx&lt;/p&gt;
+        &lt;/body&gt;
+    &lt;/html&gt;   </pre>
+                    <ul>
+                        <li>
+                            <p class="title">1、有哪些标签？</p>
+                            <p class="text">
+                                body / div / span / p / a / br / select / h1 / head / img / option / title / label / input / textarea / button / table /...
+                            </p>
+                        </li>
+                        <li>
+                            <p class="title">2、行内元素和块状元素？</p>
+                            <p class="text">块状元素：是指开始在新的行，占领整行宽度。</p>
+                            <p class="text">行内元素：仅仅维持内容的宽度。</p>
+                        </li>
+                        <li>
+                            <p class="title">3、属性？</p>
+                            <p class="text">总是以key/value对的形式出现。</p>
+                            <p class="text">声明class、id、name、style、data-*等。</p>
+                        </li>
+                        <li>
+                            <p class="title">4、HTML5？</p>
+                            <p class="text">提供更多语义化标签。</p>
+                            <p class="text">header / nav / article / section / aside / footer / ...</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="step10" class="step slide">
+                <q>CSS</q>
+                <div>
+                    <pre>
+#step10 ul {
+    width: 50%;
+    margin-left: 5%;
+}
+
+#step10 li + li {
+    margin-top: 20px;
+}
+
+#step10 .title {
+    font-size: 28px;
+}
+
+#step10 .text {
+    font-size: 24px;
+    text-indent: 48px;
+    line-height: 40px;
+}                   </pre>
+                    <ul>
+                        <li>
+                            <p class="title">1、CSS的书写形式？</p>
+                            <p class="text">内联样式(属性style)、内部样式表(标签style)、外链样式表(外链link)</p>
+                        </li>
+                        <li>
+                            <p class="title">2、样式表的优先级？</p>
+                            <p class="text">import > style > css > tag</p>
+                            <p class="text">覆盖原则。</p>
+                        </li>
+                        <li>
+                            <p class="title">3、CSS选择器？</p>
+                            <p class="text">通配选择器、标签选择器、id选择器、类选择器、后代选择器...</p>
+                        </li>
+                        <li>
+                            <p class="title">4、CSS伪类？！</p>
+                        </li>
+                        <li>
+                            <p class="title">5、熟记各种样式！</p>
+                            <p class="text">margin / padding / color / background / boder / width / height / font / ...</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="step11" class="step slide">
+                <q>CSS</q>
+                <div>
+                    <div class="img-container">
+                        <img src="image/box-model.png" alt="盒子模型">
+                    </div>
+                    <ul>
+                        <li>
+                            <p class="title">6、盒子模型</p>
+                            <p class="text">标准盒子模型、IE盒子模型</p>
+                        </li>
+                        <li>
+                            <p class="title">7、定位和浮动</p>
+                            <p class="text">position: static, relative, absolute, fixed</p>
+                            <p class="text">float: right, left, none</p>
+                        </li>
+                        <li>
+                            <p class="title">8、文档流</p>
+                            <p class="text">脱离文档流？</p>
+                            <p class="text">清除浮动？</p>
+                        </li>
+                        <li>
+                            <p class="title">9、浏览器内核？</p>
+                            <p class="text">IE、Chrome、Firefox、Opera、Safari。</p>
+                            <p class="text">浏览器兼容性问题。</p>
+                        </li>
+                        <li>
+                            <p class="title">10、动画&&CSS3！</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="step12" class="step slide">
+                <q>JAVASCRIPT</q>
+            </div>
+            <div id="step13" class="step slide">
+                <q>4</q>
+            </div>
+            <div id="step14" class="step slide">
+                <q>4</q>
+            </div>
+            <div id="step15" class="step slide">
+                <q>4</q>
+            </div>
+        </div>
+ 
+        <script src="js/impress.js"></script>
+        <script>
+            (function() {
+                var steps = document.getElementsByClassName('step');
+                Array.prototype.forEach.call(steps, function(step, i) {
+                    step.setAttribute('data-x', i * 1280)
+                });
+                impress().init();
+            })();
+        </script>
+    </body>
+</html>
