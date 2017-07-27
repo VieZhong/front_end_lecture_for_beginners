@@ -34,7 +34,7 @@
     font-size: 20px;
 }
 
-#step3 > div, #step4 > div, #step6 > div {
+#step3 > div, #step4 > div, #step6 > div, #step12 > div, #step14 > div, #step15 > div {
     margin-top: 120px;
     display: flex;
 }
@@ -103,7 +103,7 @@
     top: 15px;
 }
 
-#step6 .list {
+#step6 .list, #step14 .list, #step15 .list {
     line-height: 66px;
 }
 
@@ -125,7 +125,7 @@
     padding-top: 50px;
 }
 
-#step9 > div {
+#step9 > div{
     margin-top: 60px;
     display: flex;
 }
@@ -179,4 +179,56 @@
     position: relative;
     top: -2px;
     left: -2px;
+}
+
+#step12 .list {
+    width: 70%;
+    line-height: 40px;
+    padding-left: 20px;
+}
+
+#step12 .list p {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+#step12 .list li + li {
+    margin-top: 20px;
+}
+
+#step12 .img-container {
+    width: 30%;
+    text-align: center;
+}
+
+#step12 .img-container img {
+    width: 80%;
+    margin-top: 110px;
+}
+
+#step13 .logo {
+    position: absolute;
+    bottom: 110px;
+    left: 110px;
+    z-index: -1;
+    width: 130px;
+}
+
+#step13 .composition {
+    position: absolute;
+    top: 40px;
+    right: 100px;
+    z-index: -1;
+}
+
+#step14 .list, #step15 .list {
+    padding-left: 40px;
+    width: 60%;
+}
+
+#step14 img, #step15 img {
+    width: 200px;
+    position: absolute;
+    bottom: 160px;
+    right: 160px;
 }
