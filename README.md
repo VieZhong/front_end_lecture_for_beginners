@@ -60,7 +60,7 @@
 >### MPA
 >>SMDB/SMAS/HSAS
 
->>关键：JSP/Jquery
+>>关键：JSP/Jquery/Bootstrap
 
 >### SPA
 >>DMSS(组件化)
@@ -74,7 +74,7 @@
 >### 全栈
 >>FPMS
 
->>关键字：nodejs/mongodb/Angular
+>>关键字：nodejs/mongodb/Angular/MEAN
 
 
 # 在实验室的一年

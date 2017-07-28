@@ -16,7 +16,7 @@
     line-height: 52px;
 }
 
-#step2 ul {
+#step2 ul, #step19 ul, #step20 ul {
     margin-top: 120px;
     margin-left: 80px;
 }
@@ -28,13 +28,20 @@
 
 #step2 p {
     position: absolute;
-    bottom: 160px;
+    bottom: 100px;
     right: 100px;
     text-align: right;
     font-size: 20px;
 }
 
-#step3 > div, #step4 > div, #step6 > div, #step12 > div, #step14 > div, #step15 > div {
+#step2 img {
+    position: absolute;
+    bottom: 200px;
+    right: 40px;
+    width: 720px;
+}
+
+#step3 > div, #step4 > div, #step6 > div, #step12 > div, #step14 > div, #step17 > div, #step15 > div, #step16 > div, #step23 > div {
     margin-top: 120px;
     display: flex;
 }
@@ -61,11 +68,11 @@
     margin-top: 20px;
 }
 
-#step5 > div {
+#step5 > div, #step21 ul, #step24 ul {
     margin-top: 120px;
 }
 
-#step5 p {
+#step5 p, #step23 .list, #step24 li {
     line-height: 60px;
 }
 
@@ -103,7 +110,7 @@
     top: 15px;
 }
 
-#step6 .list, #step14 .list, #step15 .list {
+#step6 .list, #step14 .list, #step17 .list {
     line-height: 66px;
 }
 
@@ -221,14 +228,126 @@
     z-index: -1;
 }
 
-#step14 .list, #step15 .list {
+#step14 .list, #step17 .list, #step16 .list, #step24 ul {
     padding-left: 40px;
     width: 60%;
 }
 
-#step14 img, #step15 img {
-    width: 200px;
+#step14 img, #step17 img {
     position: absolute;
     bottom: 160px;
     right: 160px;
+}
+
+#step15 .mvc {
+    width: 36%;
+}
+
+#step15 .mvc img {
+    position: relative;
+    left: -90px;
+}
+
+#step15 .mvvm img{
+    width: 90%;
+    position: relative;
+    top: 40px;
+}
+
+#step15 .mvc, #step15 .mvvm{
+    text-align: center;
+    position: relative;
+}
+
+#step15 p {
+    position: absolute;
+    bottom: -70px;
+    left: 50%;
+    margin-left: -130px;
+    width: 260px;
+    text-align: center;
+}
+
+#step16 .list {
+    line-height: 40px;
+    font-size: 26px;
+    list-style-type: decimal;
+    padding-left: 30px;
+}
+
+#step16 .list li + li {
+    margin-top: 12px;
+}
+
+#step16 img {
+    position: relative;
+    top: 20px;
+}
+
+#step18 p, #step22 p {
+    line-height: 480px;
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+#step19 li, #step20 li {
+    line-height: 70px;
+}
+
+#step19 img {
+    position: absolute;
+    right: 80px;
+    top: 180px;
+    width: 400px;
+}
+
+#step20 img {
+    position: absolute;
+    right: 20px;
+    top: 210px;
+    z-index: -1;
+}
+
+#step21 img {
+    position: absolute;
+    bottom: 90px;
+    right: 300px;
+}
+
+#step22 img {
+    position: absolute;
+    bottom: 120px;
+    right: 120px;
+    width: 80px;
+}
+
+#step23 .list + .list {
+    margin-left: 80px;
+}
+
+#step23 ul {
+    padding-left: 30px;
+}
+
+#step24 img {
+    position: absolute;
+    right: 100px;
+    top: 140px;
+}
+
+#step24 p {
+    position: absolute;
+    right: 100px;
+    bottom: 240px;
+    font-size: 40px;
+}
+
+#step25 div {
+    position: absolute;
+    top: 160px;
+    left: 50%;
+    width: 600px;
+    margin-left: -300px;
+    text-align: center;
 }
