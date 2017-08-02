@@ -237,6 +237,7 @@
     position: absolute;
     bottom: 160px;
     right: 160px;
+    max-width: 220px;
 }
 
 #step15 .mvc {
